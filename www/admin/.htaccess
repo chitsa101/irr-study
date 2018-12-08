@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName admin
+AuthUserFile /Server/data/htdocs/irk-tour.ru/.httpasw
+require valid-user

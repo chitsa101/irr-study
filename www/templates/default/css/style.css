@@ -1,0 +1,210 @@
+body {
+    background-image: url('/img/2-7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.container{
+    padding: 0px;
+}
+.row{
+    width: 100%;
+    margin: 0px;
+
+}
+.first {
+    margin: 0auto;
+    padding-bottom: 10%;
+}
+.contacts{
+    padding-top: 10px; 
+    padding-right: 0px;
+    text-align: end;
+}
+
+.usphone{
+    color: rgba(41, 88, 169, 0.877);
+    padding: 8px 10px;
+    font-weight: bold;
+}
+.usphone:hover{
+    text-decoration: none;
+    color: rgb(245, 158, 27);
+}
+.menu{
+    padding-top: 6px;
+    margin: 0px;
+    padding-right: 3%;
+}
+.brand{
+    text-align: center;
+}
+.logo{
+    width: 65%;
+    padding-bottom: 2px;
+}
+.logo:hover{
+    -moz-transform: scale(1.2, 1.2); /* Для Firefox */
+    -ms-transform: scale(1.2, 1.2); /* Для IE */
+    -webkit-transform: scale(1.2, 1.2); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.2, 1.2); /* Для Opera */
+    transform: scale(1.2, 1.2);
+}
+.navbar-nav {
+    width: 100%;
+}
+.navbar{
+    padding: 0px;
+}
+.navbar-toggler{
+    background-color: rgba(41, 88, 169, 0.877);
+    box-shadow: 0 0 1px white;
+
+}
+.navbar-brand{
+    margin-left: 30%; 
+    text-transform: uppercase;
+}
+h4{    
+    padding: 6px;
+    margin: 0px;
+    color: rgba(41, 88, 169, 0.877);
+}
+.nav-item {
+    background-color: rgba(41, 88, 169, 0.877);
+    margin: 5px 10px 5px 0px;
+    padding-left: 10px; 
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px white;
+}
+.dropdown-menu{
+    border-radius: 0;
+    padding: 0px;
+}
+.dropright .dropdown-menu{
+    margin-left: 5px;
+}
+.dropdown-item{
+    background-color: rgba(41, 88, 169, 0.877);
+    color: white;
+}
+.contact{
+    text-align: end;
+    color: rgb(42, 45, 52);
+}
+.head{
+    padding: 7% 0% 0% 5%;
+}
+.main_info{
+    padding-top: 6px;
+}
+.info{
+    margin: 2% 0%;
+    background-color: rgba(255, 255, 255, 0.816);
+    padding: 5%;
+    box-shadow: 0 0 3px rgb(81, 83, 96);
+}
+.of_us{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 2%;
+    color: rgb(42, 45, 52);
+}
+h1{
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #173c5c;
+    text-shadow: 1px 1px 2px white;
+
+}
+@media (max-width: 768px) { 
+    h1{
+        font-size: 52px;
+
+    }
+ }
+.footer{
+    background-color: rgba(41, 88, 169, 0.877);
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 8px;
+    box-shadow: 0 0 1px white;
+    margin-top: 30px;
+}
+@media (max-width: 768px) { 
+    .footer{
+        margin-top: 30px;
+    }
+ }
+a{
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: rgb(245, 158, 27);
+}
+.hidden_img{
+    position: absolute;
+}
+.image{
+    width: 180px;
+    height: 150px;
+    padding: 0px;
+}
+.order{
+    float: right;
+    background-color: rgba(41, 88, 169, 0.877);
+    box-shadow: 0 0 1px white;
+    color: white;
+}
+.cars{
+    padding: 5% 2% 8% 2%;
+    background-color: rgba(255, 255, 255, 0.925);
+    box-shadow: 0 0 3px rgb(81, 83, 96);
+
+}
+.car_info{
+    margin-bottom: 0px;
+}
+.car_park{
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+@media (min-width: 768px) {
+    .img{
+        padding-left: 0px;
+    }
+ }
+h2{
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: rgba(41, 88, 169, 0.877);
+}
+
+.table{
+    margin-top: 1rem;
+}
+thead {
+    background-color: rgba(41, 88, 169, 0.877);
+    color: white;
+}
+.headline{
+    padding: 2% 2% 1% 2%;
+
+}
+form{
+    width: 100%;
+}
+.us{
+    padding: 6% 6% 10% 6%;
+}
+iframe{
+    width: 100%;
+}
+
